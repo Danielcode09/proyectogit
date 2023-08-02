@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 50 rem;
+    height: 5em;
+    border: 3px solid darkcyan;
+}
+.barra_heder{
+      display: flex;
+    align-items: center;
+}
+.barra_logo{
+  padding: 30px;
+}
+.barra_botones , .barra_user{
+  border: 2px solid hotpink;
+  min-width: 4%;
+  border-radius: 16px;
+  display: flex;
+  gap: 1em;
+}
+.opciones{
+ display: flex;
+ border: 2px solid hotpink;
+ justify-content:left;
+ align-items: center;
+ margin-top: 10px;
+ 
+}
+.opciones_factura , .opciones_canpañia{
+    width: 20em;
+    height: 10%;
+    border: 2px solid rgb(230, 230, 230);
+    max-width: 11em;
+    text-align: center;
+    height: 5 rem;
+    border-radius: 9px;
+    margin-left: 3%;
+    background-color: WHITE;
+}
+.opciones_canpañia{
+min-width: 9%;
+min-height: 10%;
+margin-top: -2%;
+}
+.opciones_factura{
+min-width: 5%;
+min-height: 7%;
+margin-top: 1%;
+}
+
+.canpañia{
+display: block;
+}
